@@ -8,6 +8,7 @@ import Input from "./components/Input";
 import Oscar from "./components/Oscar";
 import Person from "./components/Person";
 import PersonList from "./components/PersonList";
+import { Counter } from "./components/state/Counter";
 import LoggedIn from "./components/state/LoggedIn";
 import User from "./components/state/User";
 import User1 from "./components/state/User1";
@@ -72,6 +73,8 @@ const App = () => {
       <User />
       <hr />
       <User1 />
+      <hr/>
+      <Counter/>
     </div>
   );
 };
